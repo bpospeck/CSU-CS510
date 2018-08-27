@@ -1,0 +1,11 @@
+We want to be able to open the movie one frame at a time and analyze each image accordingly: Convert image to gray scale and threshold the image to binary black and white, then use that to make our bounding box.
+
+Open CV thresholding:
+threshold() needs a gray scale image.
+args:
+	src: source image
+	thresh: color to determine thresh bounds (start at 127?)
+	maxval: probably 255
+	type: we want THRESH_BINARY
+
+
